@@ -1,1 +1,1 @@
-# ontologies
+# BIM-IoT-IntegrationOntology.owl
