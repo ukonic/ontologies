@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
-   xmlns:BIM-IoT_IntegrationOntology="http://example.org/BIM-IoT_IntegrationOntology.owl#"
-   xmlns:iot="http://example.org/IoTOntology_CSV.owl#"
+   xmlns:BIM-IoT_IntegrationOntology="https://w3id.org/BIM-IoT-IntegrationOntology.owl#"
+   xmlns:bim="https://w3id.org/BIMOntology_IFC.owl#"
+   xmlns:iot="https://w3id.org/IoTOntology_CSV.owl#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
    xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
 >
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Elevation">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Elevation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcbuildingstorey"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcbuildingstorey"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelDefinesByProperties">
@@ -18,9 +19,9 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelDefinesByProperties"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Targetview">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Targetview">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Contextofitems"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Contextofitems"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelDecomposes">
@@ -28,75 +29,75 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelDecomposes"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Value">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Profiletype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Profiletype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Sweptarea"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Sweptarea"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Wrappedvalue">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Wrappedvalue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Nominalvalue"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Nominalvalue"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Lengthvalue">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Lengthvalue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Quantities"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Quantities"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcslab">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcslab">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Compositiontype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Compositiontype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcbuildingstorey"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcbuildingstorey"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcSpaceComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcSpaceComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcwallstandardcase">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcwallstandardcase">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcWallComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcWallComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasDistributionPort">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcDistributionPort"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Representationtype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Representationtype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Mappedrepresentation"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Mappedrepresentation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcdoorpanelproperties">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcdoorpanelproperties">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcelementquantity">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcelementquantity">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcreldefinesbytype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcreldefinesbytype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Points">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Points">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Materials">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Materials">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Material"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Material"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Layersetdirection">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Layersetdirection">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Relatingmaterial"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relatingmaterial"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasDistributionSystem">
@@ -104,13 +105,13 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcDistributionSystem"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcwindow">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcwindow">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcWindowComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcWindowComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#SensorID">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#SensorID">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasSystem">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -127,28 +128,28 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelContainedInSpatialStructure"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#has_unit">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#has_unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Value"/>
-    <rdfs:range rdf:resource="http://example.org/IoTOntology_CSV.owl#Unit"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Value"/>
+    <rdfs:range rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Unit"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Extrudeddirection">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Extrudeddirection">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N83380eab6d5e4bdea97105d2adf9776c">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-    <swrl:classPredicate rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#comp"/>
+    <swrl:classPredicate rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#comp"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelAssigns">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelAssigns"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingconnectiontype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingconnectiontype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasOpenings">
@@ -158,21 +159,21 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="N37eb392338e24262a4612b10699801ab">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/IoTOntology_CSV.owl#has_unit"/>
-    <owl:someValuesFrom rdf:resource="http://example.org/IoTOntology_CSV.owl#Displacement_Unit"/>
+    <owl:onProperty rdf:resource="https://w3id.org/IoTOntology_CSV.owl#has_unit"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Displacement_Unit"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Forlayerset">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Forlayerset">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Predefinedtype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Predefinedtype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcslab"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcslab"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingopeningelement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingopeningelement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasVoids">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -184,27 +185,27 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcProductRepresentation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Layerthickness">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Layerthickness">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Materiallayers"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Materiallayers"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#has_timestamp">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#has_timestamp">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Value"/>
-    <rdfs:range rdf:resource="http://example.org/IoTOntology_CSV.owl#Timestamp"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Value"/>
+    <rdfs:range rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Timestamp"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatedconnectiontype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatedconnectiontype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nedfb81077883409fa330be0799973bbc">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-    <swrl:classPredicate rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#FaultIndicator"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#comp"/>
+    <swrl:classPredicate rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#FaultIndicator"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#comp"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Truenorth">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Truenorth">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
@@ -218,61 +219,61 @@
     <rdf:first rdf:nodeID="N83380eab6d5e4bdea97105d2adf9776c"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Type">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Type">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Objectplacement"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Objectplacement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#SensorID_has_value">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#SensorID_has_value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#SensorID"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#SensorID"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Interiororexteriorspace">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Interiororexteriorspace">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcspace"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcspace"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcwindowstyle">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcwindowstyle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcWindowComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcWindowComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelFlowControlElements">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcDistributionFlowElement"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcproject">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcproject">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl#acc001">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl#acc001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/IoTOntology_CSV.owl#Acceleration"/>
+    <rdf:type rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Acceleration"/>
     <iot:Value_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</iot:Value_has_value>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl#sensor001">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl#sensor001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
-    <BIM-IoT_IntegrationOntology:deployedIn rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#comp001"/>
-    <iot:has_measurement rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#acc001"/>
-    <iot:has_measurement rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#disp001"/>
-    <iot:has_measurement rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#vel001"/>
+    <rdf:type rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
+    <BIM-IoT_IntegrationOntology:deployedIn rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#comp001"/>
+    <iot:has_measurement rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#acc001"/>
+    <iot:has_measurement rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#disp001"/>
+    <iot:has_measurement rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#vel001"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N23cefda70f0e4d9e9b14d33642180d03">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
     <rdf:first rdf:nodeID="N024ae7d521ea474393ed99409437472e"/>
     <rdf:rest rdf:nodeID="N9d5da63698ea4a16bef2360dee33d9a2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Location">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Location">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
     <rdfs:comment>IoT Location is equivalent to a building component in BIM.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nf0ab5380cadb4ecc923432a6b41ec10a">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/IoTOntology_CSV.owl#has_unit"/>
-    <owl:someValuesFrom rdf:resource="http://example.org/IoTOntology_CSV.owl#Velocity_Unit"/>
+    <owl:onProperty rdf:resource="https://w3id.org/IoTOntology_CSV.owl#has_unit"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Velocity_Unit"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N18b1f5788fd044319a1b682c473698cf">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
@@ -289,9 +290,9 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuilding"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Directionsense">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Directionsense">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Relatingmaterial"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relatingmaterial"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelVoidsElement">
@@ -309,9 +310,9 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcStructuralLoad"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcrelaggregates">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcrelaggregates">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasProfile">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -323,44 +324,44 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcSurface"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Quantities">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Quantities">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Panelposition">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Panelposition">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcdoorpanelproperties"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcdoorpanelproperties"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Mappingorigin">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Mappingorigin">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Mapp"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Mapp"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasZone">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcZone"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Outer">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Outer">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcbuilding">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcbuilding">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcRoofComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcRoofComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Parametertakesprecedence">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Parametertakesprecedence">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Profilename">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Profilename">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Sweptarea"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Sweptarea"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelCoversSpaces">
@@ -378,9 +379,9 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcMaterial"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcwalltype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcwalltype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcWallComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcWallComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelServicesBuildings">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -397,12 +398,12 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelSpaceBoundary"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl#vel001">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl#vel001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/IoTOntology_CSV.owl#Velocity"/>
+    <rdf:type rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Velocity"/>
     <iot:Value_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.04</iot:Value_has_value>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#TempLink">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#TempLink">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N36972ccd837a4b059461eb644ced2693">
@@ -413,17 +414,17 @@
     <swrl:body rdf:nodeID="N23cefda70f0e4d9e9b14d33642180d03"/>
     <swrl:head rdf:nodeID="Nf8da893d8b324c258afa052050601198"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Representationcontexts">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Representationcontexts">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Representation"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Representation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Position">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Position">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcwindowliningproperties">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcwindowliningproperties">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcWindowComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcWindowComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
@@ -433,81 +434,81 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcFurnishingElement"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Axis">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Axis">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Shapetype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Shapetype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcroof"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcroof"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcSiteComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcSiteComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:equivalentClass rdf:resource="http://example.org/IoTOntology_CSV.owl#Location"/>
+    <owl:equivalentClass rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Location"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Itemreference">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Itemreference">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Relatingclassification"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relatingclassification"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Velocity_Unit">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Velocity_Unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Unit"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Unit"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Refdirection">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Refdirection">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <owl:versionIRI rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl/1.0"/>
-    <owl:imports rdf:resource="http://example.org/BIMOntology_IFC.owl"/>
-    <owl:imports rdf:resource="http://example.org/IoTOntology_CSV.owl"/>
+    <owl:versionIRI rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl/1.0"/>
+    <owl:imports rdf:resource="https://w3id.org/BIMOntology_IFC.owl"/>
+    <owl:imports rdf:resource="https://w3id.org/IoTOntology_CSV.owl"/>
     <rdfs:label>BIM-IoT Integration Ontology</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcrelfillselement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcrelfillselement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Source">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Source">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Referencedsource"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Referencedsource"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Haspropertysets">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Haspropertysets">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#HasProperty"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#HasProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatedopeningelement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatedopeningelement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Related"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Related"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelDefinesByType">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelDefinesByType"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcDoorComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcDoorComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Constructiontype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Constructiontype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Description">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Description">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Timestamp">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Timestamp">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
@@ -521,7 +522,7 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingStorey"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Contextofitems">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Contextofitems">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
@@ -530,9 +531,9 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcStyle"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Sizeable">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Sizeable">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasBuildingElement">
@@ -545,93 +546,93 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcGroup"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Overallwidth">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Overallwidth">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcdoor"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcdoor"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Longname">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Longname">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcbuildingstorey"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcbuildingstorey"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Related">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Related">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcslabtype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcslabtype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Paneloperation">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Paneloperation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcdoorpanelproperties"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcdoorpanelproperties"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatedelement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatedelement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Related"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Related"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Areavalue">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Areavalue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Quantities"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Quantities"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatedelements">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatedelements">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Related"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Related"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#SensorType_has_value">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#SensorType_has_value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#SensorType"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#SensorType"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N6a6cc8c865a04d2d8e3d3533e9cd0628">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-    <swrl:propertyPredicate rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#deployedIn"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#s"/>
-    <swrl:argument2 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#comp"/>
+    <swrl:propertyPredicate rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#deployedIn"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#s"/>
+    <swrl:argument2 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#comp"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Overallheight">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Overallheight">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcdoor"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcdoor"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl#disp001">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl#disp001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/IoTOntology_CSV.owl#Displacement"/>
+    <rdf:type rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Displacement"/>
     <iot:Value_has_value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.85</iot:Value_has_value>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcsite">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcsite">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcSiteComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcSiteComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Innercurves">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingstructure">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Referencedsource">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Innercurves">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relating">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingstructure">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Referencedsource">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Operationtype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relating">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Operationtype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcwindowstyle"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcrelassociatesmaterial">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcrelassociatesmaterial">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relativeplacement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relativeplacement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
@@ -640,52 +641,52 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcMaterialLayer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingobject">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingobject">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasBoundaryConditions">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBoundaryCondition"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl#deployedIn">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl#deployedIn">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
-    <rdfs:range rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
+    <rdfs:range rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
     <rdfs:comment>Represents the deployment of a sensor in a specific building component.</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Precision">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Precision">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Parentcontext"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Parentcontext"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Unit">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Hasproperties">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Hasproperties">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#HasProperty"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#HasProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Location_has_value">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Location_has_value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Location"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Location"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Contexttype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Contexttype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Contextofitems"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Contextofitems"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Name">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Name">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcopeningelement"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcopeningelement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ref">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ref">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Relatingopeningelement"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relatingopeningelement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelFillsElement">
@@ -693,50 +694,50 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelFillsElement"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingmaterial">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingmaterial">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Material"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Material"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Outercurve">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Outercurve">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Outer"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Outer"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingelement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingelement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Edition">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Edition">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Referencedsource"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Referencedsource"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl#FaultIndicator">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl#FaultIndicator">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Timestamp_has_value">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Timestamp_has_value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Timestamp"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Timestamp"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#has_location">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#has_location">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
-    <rdfs:range rdf:resource="http://example.org/IoTOntology_CSV.owl#Location"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
+    <rdfs:range rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Location"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Tag">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Tag">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcopeningelement"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcopeningelement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nbaa41d5e57394c69bb557ecebb13db61">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-    <swrl:classPredicate rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#s"/>
+    <swrl:classPredicate rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#s"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Unit_has_value">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Unit_has_value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Unit"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Unit"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasObjectPlacement">
@@ -749,18 +750,18 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcDistributionControlElement"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingbuildingelement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingbuildingelement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ydim">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ydim">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Sweptarea"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Sweptarea"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcspace">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcspace">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcSpaceComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcSpaceComponent"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nbd3135e117e6455db88a2e04c016f048">
     <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
@@ -775,30 +776,30 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcProduct"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Depth">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Depth">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Items"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Items"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Value_has_value">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Value_has_value">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Value"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Value"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Displacement_Unit">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Displacement_Unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Unit"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Unit"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelCoversBldgElements">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelCoversBldgElements"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcpropertyset">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcpropertyset">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Representation">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Representation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
@@ -807,68 +808,68 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcEnergyConversionDevice"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcspacetype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcspacetype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcSpaceComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcSpaceComponent"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nd09b58ab838f468e8c528125cc76750b">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
     <rdf:first rdf:nodeID="N0a440b707bfc4f64abad39d099ff590d"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Acceleration_Unit">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Acceleration_Unit">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Unit"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Unit"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Sweptarea">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Sweptarea">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Objecttype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Objecttype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcopeningelement"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcopeningelement"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#has_measurement">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#has_measurement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
-    <rdfs:range rdf:resource="http://example.org/IoTOntology_CSV.owl#Value"/>
+    <rdfs:domain rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
+    <rdfs:range rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Value"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Offsetfromreferenceline">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Offsetfromreferenceline">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Relatingmaterial"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relatingmaterial"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Xdim">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Xdim">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Sweptarea"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Sweptarea"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nd5434bd212004e438a3eabc6c9f638b6">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-    <swrl:propertyPredicate rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#deployedIn"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#s"/>
-    <swrl:argument2 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#comp"/>
+    <swrl:propertyPredicate rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#deployedIn"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#s"/>
+    <swrl:argument2 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#comp"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcColumnComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcColumnComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelConnectsPortToElement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelConnectsPortToElement"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Coordinatespacedimension">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Coordinatespacedimension">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Parentcontext"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Parentcontext"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcbuildingstorey">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcbuildingstorey">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Parentcontext">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Parentcontext">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
@@ -877,49 +878,49 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcRelAssociates"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcBeamComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcBeamComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcdoorliningproperties">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcdoorliningproperties">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Material">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Material">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Representationidentifier">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Representationidentifier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Mappedrepresentation"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Mappedrepresentation"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N024ae7d521ea474393ed99409437472e">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-    <swrl:classPredicate rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#s"/>
+    <swrl:classPredicate rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#s"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Unitsincontext">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Unitsincontext">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Contextidentifier">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Contextidentifier">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Contextofitems"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Contextofitems"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_IntegrationOntology.owl#comp001">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_IntegrationOntology.owl#comp001">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-    <rdf:type rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdf:type rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingpropertydefinition">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingpropertydefinition">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N12589b5a9dcd4347875bcb3a116d0efd">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-    <owl:onProperty rdf:resource="http://example.org/IoTOntology_CSV.owl#has_unit"/>
-    <owl:someValuesFrom rdf:resource="http://example.org/IoTOntology_CSV.owl#Acceleration_Unit"/>
+    <owl:onProperty rdf:resource="https://w3id.org/IoTOntology_CSV.owl#has_unit"/>
+    <owl:someValuesFrom rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Acceleration_Unit"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasRelConnectsElements">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -928,39 +929,39 @@
   </rdf:Description>
   <rdf:Description rdf:nodeID="N0a440b707bfc4f64abad39d099ff590d">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-    <swrl:classPredicate rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#comp"/>
+    <swrl:classPredicate rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#comp"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcdoorstyle">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcdoorstyle">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcrelconnectspathelements">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasType">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcTypeObject"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Velocity">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Velocity">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Value"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Value"/>
     <rdfs:subClassOf rdf:nodeID="Nf0ab5380cadb4ecc923432a6b41ec10a"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Phase">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Phase">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcproject"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcproject"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Worldcoordinatesystem">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Worldcoordinatesystem">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Refelevation">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Refelevation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Ifcsite"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Ifcsite"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasProject">
@@ -968,178 +969,178 @@
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcProject"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Volumevalue">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Volumevalue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Quantities"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Quantities"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Buildingaddress">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Buildingaddress">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Layersetname">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Layersetname">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-    <rdfs:domain rdf:resource="http://example.org/BIMOntology_IFC.owl#Relatingmaterial"/>
+    <rdfs:domain rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relatingmaterial"/>
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Nominalvalue">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Nominalvalue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_FusionOntology.owl#comp">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_FusionOntology.owl#comp">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcdoor">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcdoor">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcDoorComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcFloorComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcFloorComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#SensorType">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#SensorType">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Sensor"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Sensor"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasFlowTerminal">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcFlowTerminal"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcopeningelement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcopeningelement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasCoverings">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcCovering"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcStairComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcStairComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.semanticweb.org/ontologies/BIM-IoT.owl#hasSite">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
     <rdfs:domain rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcBuildingComponent"/>
     <rdfs:range rdf:resource="http://www.semanticweb.org/ontologies/BIM-IoT.owl#IfcSite"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Materiallayers">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Materiallayers">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Material"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Material"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatedbuildingelement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatedbuildingelement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Related"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Related"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="Nbfdaf59d6b6a48d9a2e8e48f508e7aa8">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
     <rdf:first rdf:nodeID="Nedfb81077883409fa330be0799973bbc"/>
     <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingtype">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingtype">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Placementrelto">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Placementrelto">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Mappedrepresentation">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Mappedrepresentation">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Mapp"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Mapp"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N9d5da63698ea4a16bef2360dee33d9a2">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
     <rdf:first rdf:nodeID="Nd5434bd212004e438a3eabc6c9f638b6"/>
     <rdf:rest rdf:nodeID="N5f4cb595538d4859848f0f5e66d5b466"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Items">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Items">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Objectplacement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Objectplacement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcrelcontainedinspatialstructure">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcrelcontainedinspatialstructure">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Displacement">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Displacement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Value"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Value"/>
     <rdfs:subClassOf rdf:nodeID="N37eb392338e24262a4612b10699801ab"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Polygon">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Polygon">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcrelvoidselement">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcrelvoidselement">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcWindowComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcWindowComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#IfcWallComponent">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#IfcWallComponent">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N0063b6cf52c944b985316151b2062cd8">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-    <swrl:classPredicate rdf:resource="http://example.org/BIM-IoT_IntegrationOntology.owl#FaultIndicator"/>
-    <swrl:argument1 rdf:resource="http://example.org/BIM-IoT_FusionOntology.owl#comp"/>
+    <swrl:classPredicate rdf:resource="https://w3id.org/BIM-IoT_IntegrationOntology.owl#FaultIndicator"/>
+    <swrl:argument1 rdf:resource="https://w3id.org/BIM-IoT_FusionOntology.owl#comp"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Acceleration">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Acceleration">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/IoTOntology_CSV.owl#Value"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/IoTOntology_CSV.owl#Value"/>
     <rdfs:subClassOf rdf:nodeID="N12589b5a9dcd4347875bcb3a116d0efd"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcreldefinesbyproperties">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcreldefinesbyproperties">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcrelassociatesclassification">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcrelassociatesclassification">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcBuildingComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIM-IoT_FusionOntology.owl#s">
+  <rdf:Description rdf:about="https://w3id.org/BIM-IoT_FusionOntology.owl#s">
     <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#HasProperty">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#HasProperty">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Location">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Location">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatingclassification">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatingclassification">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Relating"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Relating"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Representationmaps">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Representationmaps">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Representation"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Representation"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Mapp">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Ifcroof">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#IfcRoofComponent"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/IoTOntology_CSV.owl#Sensor">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Mapp">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Relatedobjects">
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Ifcroof">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://example.org/BIMOntology_IFC.owl#Related"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#IfcRoofComponent"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/BIMOntology_IFC.owl#Bound">
+  <rdf:Description rdf:about="https://w3id.org/IoTOntology_CSV.owl#Sensor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Relatedobjects">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://w3id.org/BIMOntology_IFC.owl#Related"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/BIMOntology_IFC.owl#Bound">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
     <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   </rdf:Description>
